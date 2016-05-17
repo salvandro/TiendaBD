@@ -160,7 +160,7 @@ VALUES              ( 1 ,         1   ,          'Televisor SMART LED de 43'    
                     ( 22,         NULL,          'Impresora Officejet Pro 8100'          , 700  ,        800  ,       800  ,        9 ,         'HP'        ),
                     ( 23,         NULL,          'Antivirus Internet Security 2016 1 Año', 200  ,        300  ,       300  ,        15,         'Kaspersky' );
 	  
-INSERT INTO Venta( IdVenta,  IdCliente, FechaVenta   , FormaPago  )
+INSERT INTO Venta( IdVenta,  IdCliente, FechaVenta,    FormaPago  )
 VALUES           ( 1 ,       1 ,        '2010/09/15' , 'Efectivo' ),
                  ( 2 ,       1 ,        '2010/09/17' , 'Crédito'  ),
                  ( 3 ,       1 ,        '2010/11/11' , 'Crédito'  ),
