@@ -102,7 +102,7 @@ VALUES             ( 1 ,        'Natalia'       , 'Alcántara'  ,     'Salgado' 
 	               ( 12,        'Mayra Yazmín'  , 'Alarcón'    ,     'Adame'     ,    '1986/04/16',    '2011/09/21', 'AAAM860416000', 'Cuauhtémoc'           , 12000   , 1753.20  ),
                    ( 13,        'Adriana'       , 'Cuevas'     ,     'Vital'     ,    '1984/07/28',    '1999/07/22', 'CUVA840728000', 'Cuauhtémoc'           , 5678.66 , 2434.00  ),
 	               ( 14,        'Raymundo'      , 'Ayala'      ,     'Bailón'    ,    '1970/03/15',    '2007/01/12', 'AABR700315AU9', 'Gustavo A. Madero'    , 89665.13, 2543.30  ),
-                   ( 15,        'Areli'         , 'Chávez'     ,     'Carmona'   ,    '1966/12/17',    '2004/11/01', 'CXCA661217000', 'Gustavo A. Madero'    , 5556.70 , 1005,00  ),
+                   ( 15,        'Areli'         , 'Chávez'     ,     'Carmona'   ,    '1966/12/17',    '2004/11/01', 'CXCA661217000', 'Gustavo A. Madero'    , 5556.70 , 1005.00  ),
 	               ( 16,        'Clara'         , 'Adame'      ,     'Catalán'   ,    '1981/08/11',    '2008/08/18', 'AACC810811000', 'Iztacalco'            , 5478.80 , 1200.00  ),
                    ( 17,        'Lorenia'       , 'Delgado'    ,     'Salgado'   ,    '1981/12/18',    '2015/12/23', 'DESL811218000', 'Iztacalco'            , 7500.60 , 3345.00  ),
 	               ( 18,        'Lilia'         , 'Ayala'      ,     'González'  ,    '1977/04/25',    '2005/05/25', 'AAGL770425000', 'Iztapalapa'           , 2670.00 , 0.00     ),
@@ -116,10 +116,10 @@ VALUES             ( 1 ,        'Natalia'       , 'Alcántara'  ,     'Salgado' 
 	               ( 26,        'Lucio'         , 'Albañil'    ,     'Vázquez'   ,    '1978/12/13',    '2015/06/22', 'AAVL781213J10', 'Tláhuac'              , 5578.90 , 3380.00  ),
                    ( 27,        'Gilberto'      , 'Espiritu'   ,     'Mendoza'   ,    '1986/11/11',    '2007/07/16', 'EIMG861111000', 'Tláhuac'              , 78723.34, 12764.40 ),
 	               ( 28,        'Luís Miguel'   , 'Arellanes'  ,     'Bailón'    ,    '1982/08/25',    '2012/11/11', 'AEBL820825000', 'Tlalpan'              , 9240.35 , 1000.00  ),
-                   ( 29,        'Lucero',       , 'Franco'     ,     'Hernández' ,    '1980/09/04',    '2016/03/25', 'FAHL800904000', 'Tlalpan'              , 8934.64 , 1278.00  ),
+                   ( 29,        'Lucero'        , 'Franco'     ,     'Hernández' ,    '1980/09/04',    '2016/03/25', 'FAHL800904000', 'Tlalpan'              , 8934.64 , 1278.00  ),
 	               ( 30,        'Yaneth'        , 'Arteaga'    ,     'Hernández' ,    '1983/01/04',    '2016/01/01', 'AEHY8301043KA', 'Venustiano Carranza'  , 10543.20, 5560.00  ),
                    ( 31,        'Jesika Paola'  , 'Figueroa'   ,     'Salgado'   ,    '1984/02/09',    '2005/12/21', 'FISJ840209000', 'Venustiano Carranza'  , 27287.50, 8347.80  ),
-	               ( 32,        'Claudia Yudith', 'Arteaga'    ,     'lópez'     ,    '1983/11/17',    '2010/10/25', 'AELC8311176B5', 'Xochimilco'           , 15674.00, 8990.00  );
+	               ( 32,        'Claudia Yudith', 'Arteaga'    ,     'López'     ,    '1983/11/17',    '2010/10/25', 'AELC8311176B5', 'Xochimilco'           , 15674.00, 8990.00  );
 
 INSERT INTO Proveedor( IdProveedor,  Nombre                        )
 VALUES               ( 1 ,           'MEX Electrónica'             ),
