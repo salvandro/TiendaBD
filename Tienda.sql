@@ -94,7 +94,7 @@ VALUES             ( 1 ,        'Natalia'       , 'Alcántara'  ,     'Salgado' 
                    ( 4 ,        'Cristina'      , 'Contreras'  ,     'Urieta'    ,    '1980/06/18',    '2009/07/19', 'COUC800618000', 'Azcapotzalco'         , 15674.00, 4488.90  ),
                    ( 5 ,        'Edgar Armando' , 'Catalán'    ,     'Salgado'   ,    '1968/09/11',    '2010/03/11', 'CASE810317000', 'Azcapotzalco'         , 10000   , 55523.57 ),
                    ( 6 ,        'Greta Evelyn'  , 'Cuadros'    ,     'Casiano'   ,    '1993/05/02',    '2016/02/02', 'CUCG930502000', 'Benito Juaréz'        , 8387.98 , 6000.00  ),
-	               ( 7 ,        'Blanca'        , 'García'     ,     'Salgado'   ,    '1976/02/21',    '2010/05/16', 'GASB850901000', 'Benito Juárez'        , 15000   , 3879.23  ),
+	           ( 7 ,        'Blanca'        , 'García'     ,     'Salgado'   ,    '1976/02/21',    '2010/05/16', 'GASB850901000', 'Benito Juárez'        , 15000   , 3879.23  ),
 	               ( 8 ,        'Raul'          , 'Gallardo'   ,     'Castrezana',    '1970/09/09',    '2010/05/16', 'GACR800220000', 'Coyoacán'             , 15000   , 3879.23  ),
                    ( 9 ,        'Omar'          , 'Cuevas'     ,     'Sánchez'   ,    '1982/06/23',    '2003/11/28', 'CUSO820623PBA', 'Coyoacán'             , 7345.00 , 1123.40  ),
 	               ( 10,        'Patricia'      , 'Bautista'   ,     'Bautista'  ,    '1960/07/17',    '2010/12/12', 'BABP780318000', 'Cuajimalpa de Morelos', 9000    , 8879.75  ),
@@ -133,8 +133,27 @@ VALUES               ( 1 ,           'MEX Electrónica'             , '2016/06/0
                      ( 9 ,           'XFX'                         , '2016/06/15' , 'xfx_sales@xfx.com'             , 'Alemania'      , 'México' , 'Benito Juarez'         ),
                      ( 10,           'Motorola'                    , '2016/06/15' , 'motorola@motorola.com'         , 'Alatriste'     , 'México' , 'Coyoacán'              ),
                      ( 11,           'Redes Enterprice'            , '2016/05/28' , 'redes_enterprice@yahoo.com'    , 'Ángeles'       , 'México' , 'Cuajimalpa de Morelos' ),
-                     ( 12,           'PCX'                         , '2016/05/28' , 'pcs_computadoras@gmail.com'    , 'Antillas'      , 'México' , 'Benito Juarez'         );
-
+                     ( 12,           'PCX'                         , '2016/05/28' , 'pcs_computadoras@gmail.com'    , 'Antillas'      , 'México' , 'Benito Juarez'         ),
+		     ( 13,           'Venameca'			   , '2016/03/18' , 'servicios@venameca.com.mx'     , 'Olmecas'       , 'México' , 'Naucalpan'             ),
+		     ( 14,           'Birtman'                     , '2016/04/25' , 'ventas@birtman.com.mx'         , 'Joselillo'     , 'Mexico' , 'Naucalpan'		   ),
+		     ( 15,           'Zhejiang Hengfeng Electric'  , '2016/01/30' , 'ventas@zhengfengelec.com'      , 'Hengfeng'      , 'China'  , 'Yongkang'		   ),
+		     ( 16,           'Cooking Deepot'              , '2016/05/9'  , 'mvargas@cdventas.com'	    , 'Guerrero'      , 'México' , 'Monterrey'		   ),
+		     ( 17,	     'Distribuidora Ojeda'	   , '2015/11/12' , 'ojeda@distribuidora.com'       , 'Eje 3 Oriente' , 'México' , 'Iztapalapa'            ),
+		     ( 18,           'IMAGINAT IDEAS EN MOVIMIENTO', '2015/11/30' , 'sduarte@ideas.com'		    , 'Rolando Carros', 'México' , 'Venustiano Carranza'   ),
+		     ( 19,	     'Distribuidora Wyra'	   , '2016/02/29' , 'ddanre@wyra.com'		    , 'Call Fontana'  , 'México' , 'Tlanepantla'	   ),
+		     ( 20,	     'Drisa Energía y Potencia'    , '2016/03/21' , 'gdominguez@drisa.com'	    , 'Plaza de Repub', 'México' , 'Tlanepantla de Baz'	   ),
+		     ( 21,	     'Suno Calentadores Solares'   , '2015/10/31' , 'agomez@suno.com'		    , 'Francisco I. M', 'México' , 'Arandas'		   ),
+		     ( 22,	     'AMBG Mayorista'		   , '2016/02/13' , 'ggandaria@ambg.com'	    , 'Bocanegra'     , 'México' , 'Guadalajara'           ),
+		     ( 23,           'Zona Chef'		   , '2015/09/25' , 'dvargas@zonachef.com.mx'	    , 'Carr.Mor-Sala' , 'México' , 'Morelia'		   ),
+		     ( 24,	     'Accesorios para Campers'     , '2016/03/20' , 'distribuidor@acampers.com.mx'  , 'P. Villa Mar'  , 'México' , 'Militar Marte'         ),
+		     ( 25,           'Clima Ideal'		   , '2015/11/26' , 'entregas@climai.com.mx'	    , 'Nayarit'	      , 'México' , 'Hermosillo'            ),
+		     ( 26,           'Comercializadora Productos'  , '2016/02/03' , 'jguillen@comercializadora.com' , 'Valentin'      , 'México' , 'Iztacalco'		   ),
+		     ( 27,	     'Hipsa'			   , '2015/08/30' , 'eduarte@hipsa.com.mx'	    , 'Casiano Torres', 'México' , 'Zapopan'		   ),
+		     ( 28,	     'Casa Mari Ruby'		   , '2016/04/20' , 'jcoatloatzin@casamr.com.mx'    , 'Juan Cuamatzin', 'México' , 'Milpa Alta'	           ),
+		     ( 29,	     'Valoro Tecnologico'	   , '2015/06/15' , 'yoentin@valorotec.com'	    , 'Shenhui Rd'    , 'China'  , 'Shenzhen'	           ),
+		     ( 30,           'Osmofilter'		   , '2015/10/13' , 'vtorres@osmofilter.com.es'	    , 'Pol.ind vii'   , 'España' , 'Silla'   		   ),
+		     ( 31, 	     'Servinox'			   , '2015/12/05' , 'ymiramontes@servinox.com'	    , 'Av la Paz'     , 'México' , 'Guadalajara'	   ),
+		     ( 32,           'Malinelli Torres'		   , '2016/05/05' , 'emeza@malinellidis.com.mx'	    , 'San Miguel All', 'México' , 'Atizapan'              );
 INSERT INTO Producto( Idproducto, IdProveedor,   Nombre,                                   PrecioCompra, PrecioVenta, PrecioMinimo, Existencia, Fabricante  )
 VALUES              ( 1 ,         1   ,          'Televisor SMART LED de 43'             , 6500 ,        9000 ,       9000 ,        50,         'LG'        ),
                     ( 2 ,         1   ,          'Celular G4'                            , 5000 ,        5499 ,       5399 ,        12,         'LG'        ),
@@ -158,7 +177,13 @@ VALUES              ( 1 ,         1   ,          'Televisor SMART LED de 43'    
                     ( 20,         10  ,          'Cámara Wifi HD Scout 66'               , 2000 ,        2591 ,       2580 ,        7 ,         'Motorola'  ),
                     ( 21,         11  ,          'Router Ac1750'                         , 2900 ,        3199 ,       3189 ,        64,         'TP-Link'   ),
                     ( 22,         NULL,          'Impresora Officejet Pro 8100'          , 700  ,        800  ,       800  ,        9 ,         'HP'        ),
-                    ( 23,         NULL,          'Antivirus Internet Security 2016 1 Año', 200  ,        300  ,       300  ,        15,         'Kaspersky' );
+                    ( 23,         NULL,          'Antivirus Internet Security 2016 1 Año', 200  ,        300  ,       300  ,        15,         'Kaspersky' ),
+		    ( 24, 	  32  ,          'Ventilador Ter velicidades ND2311'     , 580  ,        800  ,       700  ,
+10,	    'Malinelli' ),
+	   	    ( 25,         23  ,          'PARRILLA PORTÁTIL 2 QUEMADORES'	 , 1500 ,       3000  ,      2800  ,
+8 ,	    'Zona Chef' ),
+		    ( 26,         23  ,          'SIERRA CARNICERA DE BANCO  3/4 HP'     ,19000 ,      21890  ,     21000  ,
+5 ,	    'Zona Chef' );
 	  
 INSERT INTO Venta( IdVenta,  IdCliente, FechaVenta,    FormaPago  )
 VALUES           ( 1 ,       1 ,        '2010/09/15' , 'Efectivo' ),
