@@ -121,19 +121,19 @@ VALUES             ( 1 ,        'Natalia'       , 'Alcántara'  ,     'Salgado' 
                    ( 31,        'Jesika Paola'  , 'Figueroa'   ,     'Salgado'   ,    '1984/02/09',    '2005/12/21', 'FISJ840209000', 'Venustiano Carranza'  , 27287.50, 8347.80  ),
 	               ( 32,        'Claudia Yudith', 'Arteaga'    ,     'López'     ,    '1983/11/17',    '2010/10/25', 'AELC8311176B5', 'Xochimilco'           , 15674.00, 8990.00  );
 
-INSERT INTO Proveedor( IdProveedor,  Nombre,                         FechaVisita,   Pais     )
-VALUES               ( 1 ,           'MEX Electrónica'             , '2016/06/01' , 'México' ),
-                     ( 2 ,           'MotosDF'                     , '2016/06/01' , 'México' ),
-                     ( 3 ,           'Champion PC'                 , '2016/06/01' , 'México' ),
-                     ( 4 ,           'Obregon VGA'                 , '2016/06/01' , 'México' ),
-                     ( 5 ,           'GAMEX'                       , '2016/06/15' , 'México' ),
-                     ( 6 ,           'Aparatos Electrónica Miguel' , '2016/06/15' , 'México' ),
-                     ( 7 ,           'Computadoras RFX'            , '2016/06/15' , 'México' ),
-                     ( 8 ,           'ASUS'                        , '2016/06/15' , 'México' ),
-                     ( 9 ,           'XFX'                         , '2016/06/15' , 'México' ),
-                     ( 10,           'Motorola'                    , '2016/06/15' , 'México' ),
-                     ( 11,           'Redes Enterprice'            , '2016/05/28' , 'México' ),
-                     ( 12,           'PCX'                         , '2016/05/28' , 'México' );
+INSERT INTO Proveedor( IdProveedor,  Nombre,                         FechaVisita,   Correo,                           Pais     )
+VALUES               ( 1 ,           'MEX Electrónica'             , '2016/06/01' , 'mex_elec@hotmail.com'          , 'México' ),
+                     ( 2 ,           'MotosDF'                     , '2016/06/01' , 'motosdf@gmail.com'             , 'México' ),
+                     ( 3 ,           'Champion PC'                 , '2016/06/01' , 'champion_PCs@outlook.com'      , 'México' ),
+                     ( 4 ,           'Obregon VGA'                 , '2016/06/01' , 'obregon-vga@gmail.com'         , 'México' ),
+                     ( 5 ,           'GAMEX'                       , '2016/06/15' , 'gamexshop@outlook.com'         , 'México' ),
+                     ( 6 ,           'Aparatos Electrónica Miguel' , '2016/06/15' , 'electronica_migue@yahoo.com.mx', 'México' ),
+                     ( 7 ,           'Computadoras RFX'            , '2016/06/15' , 'rfx-compus@hotmail.com'        , 'México' ),
+                     ( 8 ,           'ASUS'                        , '2016/06/15' , 'asus-sales@asus.com'           , 'México' ),
+                     ( 9 ,           'XFX'                         , '2016/06/15' , 'xfx_sales@xfx.com'             , 'México' ),
+                     ( 10,           'Motorola'                    , '2016/06/15' , 'motorola@motorola.com'         , 'México' ),
+                     ( 11,           'Redes Enterprice'            , '2016/05/28' , 'redes_enterprice@yahoo.com'    , 'México' ),
+                     ( 12,           'PCX'                         , '2016/05/28' , 'pcs_computadoras@gmail.com'    , 'México' );
 	  
 INSERT INTO Producto( Idproducto, IdProveedor,   Nombre,                                   PrecioCompra, PrecioVenta, PrecioMinimo, Existencia, Fabricante  )
 VALUES              ( 1 ,         1   ,          'Televisor SMART LED de 43'             , 6500 ,        9000 ,       9000 ,        50,         'LG'        ),
