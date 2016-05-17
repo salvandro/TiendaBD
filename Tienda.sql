@@ -119,8 +119,7 @@ VALUES             ( 1 ,        'Natalia'       , 'Alcántara'  ,     'Salgado' 
                    ( 29,        'Lucero',       , 'Franco'     ,     'Hernández' ,    '1980/09/04',    '2016/03/25', 'FAHL800904000', 'Tlalpan'              , 8934.64 , 1278.00  ),
 	               ( 30,        'Yaneth'        , 'Arteaga'    ,     'Hernández' ,    '1983/01/04',    '2016/01/01', 'AEHY8301043KA', 'Venustiano Carranza'  , 10543.20, 5560.00  ),
                    ( 31,        'Jesika Paola'  , 'Figueroa'   ,     'Salgado'   ,    '1984/02/09',    '2005/12/21', 'FISJ840209000', 'Venustiano Carranza'  , 27287.50, 8347.80  ),
-	               ( 32,        'Claudia Yudith', 'Arteaga'    ,     'lópez'     ,    '1983/11/17',    '2010/10/25', 'AELC8311176B5', 'Xochimilco'           , 15674.00, 8990.00  ),
-	               ( 33,        'Alfredo'       , 'Bahena'     ,     'López'     ,    '1985/11/01',    '2012/07/23', 'BALA851101000', 'Xochimilco'           , 6750.32 , 1290.00  );
+	               ( 32,        'Claudia Yudith', 'Arteaga'    ,     'lópez'     ,    '1983/11/17',    '2010/10/25', 'AELC8311176B5', 'Xochimilco'           , 15674.00, 8990.00  );
 
 INSERT INTO Proveedor( IdProveedor,  Nombre                        )
 VALUES               ( 1 ,           'MEX Electrónica'             ),
