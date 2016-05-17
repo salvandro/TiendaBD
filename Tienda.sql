@@ -121,20 +121,20 @@ VALUES             ( 1 ,        'Natalia'       , 'Alcántara'  ,     'Salgado' 
                    ( 31,        'Jesika Paola'  , 'Figueroa'   ,     'Salgado'   ,    '1984/02/09',    '2005/12/21', 'FISJ840209000', 'Venustiano Carranza'  , 27287.50, 8347.80  ),
 	               ( 32,        'Claudia Yudith', 'Arteaga'    ,     'López'     ,    '1983/11/17',    '2010/10/25', 'AELC8311176B5', 'Xochimilco'           , 15674.00, 8990.00  );
 
-INSERT INTO Proveedor( IdProveedor,  Nombre,                         FechaVisita,   Correo,                           Calle,            Pais     )
-VALUES               ( 1 ,           'MEX Electrónica'             , '2016/06/01' , 'mex_elec@hotmail.com'          , 'Av. Del Parque', 'México' ),
-                     ( 2 ,           'MotosDF'                     , '2016/06/01' , 'motosdf@gmail.com'             , '5 de Febrero'  , 'México' ),
-                     ( 3 ,           'Champion PC'                 , '2016/06/01' , 'champion_PCs@outlook.com'      , 'Adolfo Prieto' , 'México' ),
-                     ( 4 ,           'Obregon VGA'                 , '2016/06/01' , 'obregon-vga@gmail.com'         , 'Aguacate'      , 'México' ),
-                     ( 5 ,           'GAMEX'                       , '2016/06/15' , 'gamexshop@outlook.com'         , 'Aldama'        , 'México' ),
-                     ( 6 ,           'Aparatos Electrónica Miguel' , '2016/06/15' , 'electronica_migue@yahoo.com.mx', 'Berlín'        , 'México' ),
-                     ( 7 ,           'Computadoras RFX'            , '2016/06/15' , 'rfx-compus@hotmail.com'        , 'Ahuanusco'     , 'México' ),
-                     ( 8 ,           'ASUS'                        , '2016/06/15' , 'asus-sales@asus.com'           , 'Altavista'     , 'México' ),
-                     ( 9 ,           'XFX'                         , '2016/06/15' , 'xfx_sales@xfx.com'             , 'Alemania'      , 'México' ),
-                     ( 10,           'Motorola'                    , '2016/06/15' , 'motorola@motorola.com'         , 'Alatriste'     , 'México' ),
-                     ( 11,           'Redes Enterprice'            , '2016/05/28' , 'redes_enterprice@yahoo.com'    , 'Ángeles'       , 'México' ),
-                     ( 12,           'PCX'                         , '2016/05/28' , 'pcs_computadoras@gmail.com'    , 'Antillas'      , 'México' );
-	  
+INSERT INTO Proveedor( IdProveedor,  Nombre,                         FechaVisita,   Correo,                           Calle,            Pais,      Delegacion              )
+VALUES               ( 1 ,           'MEX Electrónica'             , '2016/06/01' , 'mex_elec@hotmail.com'          , 'Av. Del Parque', 'México' , 'Álvaro Obregón'        ),
+                     ( 2 ,           'MotosDF'                     , '2016/06/01' , 'motosdf@gmail.com'             , '5 de Febrero'  , 'México' , 'Azcapotzalco'          ),
+                     ( 3 ,           'Champion PC'                 , '2016/06/01' , 'champion_PCs@outlook.com'      , 'Adolfo Prieto' , 'México' , 'Benito Juarez'         ),
+                     ( 4 ,           'Obregon VGA'                 , '2016/06/01' , 'obregon-vga@gmail.com'         , 'Aguacate'      , 'México' , 'Coyoacán'              ),
+                     ( 5 ,           'GAMEX'                       , '2016/06/15' , 'gamexshop@outlook.com'         , 'Aldama'        , 'México' , 'Cuajimalpa de Morelos' ),
+                     ( 6 ,           'Aparatos Electrónica Miguel' , '2016/06/15' , 'electronica_migue@yahoo.com.mx', 'Berlín'        , 'México' , 'Benito Juarez'         ),
+                     ( 7 ,           'Computadoras RFX'            , '2016/06/15' , 'rfx-compus@hotmail.com'        , 'Ahuanusco'     , 'México' , 'Coyoacán'              ),
+                     ( 8 ,           'ASUS'                        , '2016/06/15' , 'asus-sales@asus.com'           , 'Altavista'     , 'México' , 'Cuajimalpa de Morelos' ),
+                     ( 9 ,           'XFX'                         , '2016/06/15' , 'xfx_sales@xfx.com'             , 'Alemania'      , 'México' , 'Benito Juarez'         ),
+                     ( 10,           'Motorola'                    , '2016/06/15' , 'motorola@motorola.com'         , 'Alatriste'     , 'México' , 'Coyoacán'              ),
+                     ( 11,           'Redes Enterprice'            , '2016/05/28' , 'redes_enterprice@yahoo.com'    , 'Ángeles'       , 'México' , 'Cuajimalpa de Morelos' ),
+                     ( 12,           'PCX'                         , '2016/05/28' , 'pcs_computadoras@gmail.com'    , 'Antillas'      , 'México' , 'Benito Juarez'         );
+
 INSERT INTO Producto( Idproducto, IdProveedor,   Nombre,                                   PrecioCompra, PrecioVenta, PrecioMinimo, Existencia, Fabricante  )
 VALUES              ( 1 ,         1   ,          'Televisor SMART LED de 43'             , 6500 ,        9000 ,       9000 ,        50,         'LG'        ),
                     ( 2 ,         1   ,          'Celular G4'                            , 5000 ,        5499 ,       5399 ,        12,         'LG'        ),
